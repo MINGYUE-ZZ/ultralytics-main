@@ -1,0 +1,43 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# COCO8 dataset (first 8 images from COCO train2017) by Ultralytics
+# Documentation: https://docs.ultralytics.com/datasets/detect/coco8/
+# Example usage: yolo train data=coco8.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco8  ← downloads here (1 MB)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: fruit # dataset root dir
+train: images/train # train images (relative to 'path') 4 images
+val: images/val # val images (relative to 'path') 4 images
+test: # test images (optional)
+
+# Classes
+names:
+ 0: Cabbage
+ 1: White radish
+ 2: Carrot
+ 3: Tomato
+ 4: Garlic
+ 5: Peanut
+ 6: Cucumber
+ 7: Eggplant
+ 8: Chili pepper
+ 9: Cauliflower
+ 10: Broccoli
+ 11: Potato
+ 12: Pineapple
+ 13: Dragon fruit
+ 14: Black grape
+ 15: Pear
+ 16: Citrus
+ 17: Longan
+ 18: Strawberry
+ 19: Mango
+ 20: Apple
+ 21: Green grape
+ 22: Watermelon
+ 23: Cherry
+ 24: Banana
+ 25: Pomelo
